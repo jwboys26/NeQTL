@@ -1,0 +1,7 @@
+useDynLib(NeQTL, .registration=TRUE)
+importFrom("stats", "density", "ecdf", "quantile", "runif")
+importFrom("Rcpp", "evalCpp")
+importFrom("grDevices", "rgb")
+importFrom("graphics", "abline", "hist", "legend", "lines", "par")
+export(Run_NeQTL2)
+#exportPattern("^[[:alpha:]]+")
