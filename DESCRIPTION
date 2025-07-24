@@ -1,0 +1,20 @@
+Package: NeQTL
+Type: Package
+Title: Predict Expression quantitative trait locus (eQTL) and chromatic interaction simultaneously through utilizing the neighboring relationship  
+Version: 1.1.1
+Author: Jiwoong Kim <jwboys26 at gmail.com>, Jiaxin Yang <yangji73 at msu.edu >, Jianrong Wang <wangj164 at msu.edu>
+Maintainer: Jiwoong Kim <jwboys26@gmail.com>
+Description: Changes in gene expression has been shown to play a crucial role in human disease. Expression quantitative trait locus (eQTL) mapping investigates how single nucleotide polymorphisms (SNPs) can affect the gene expression.1-6 Even though recent studies7-12 demonstrate that eQTL-SNPs (eSNPs) tend to clump together in clusters near target genes and regulate a common gene, many extant methods still presume one-to-one regulatory relationship between a gene and a SNP, which constrains furtherance of analysis of underlying SNP-gene-relationship and eQTL mapping. For example, one classical method – which is referred to as the “traditional” method – for prediction of an eSNP is to use an eQTL score of a corresponding SNP: any SNP is chosen as a putative eSNP if its score is larger than a threshold. The limitation of the traditional method is clearly evident if one considers the possibility that a practitioner might inadvertently exclude a true eSNP from the selection just because it displays a low eQTL score. As shown later, some SNPs with a low eQTL score turn out to be indeed eSNPs: it transpires that these eSNP with a low score build a certain relationship – neighboring relationship which will be introduced later – to each other and regulate the target gene. Addressing this limitation, a new approach that a group of SNPs, rather than a single SNP, regulate a common gene has been gaining currency recently. 
+     Moving pari passu with this new approach, the first question this study seeks to answer is the following: if an enhancer interacts with a specific gene, is a SNP residing within the enhancer possibly an eSNP which regulates the expression of the same gene? Intriguingly, a recent study13 demonstrates genes reveal higher expression levels when multiple enhancers regulate transcription start sites (TSSs) than would otherwise be the case. Motivated by this study, another question of interest is the following: if an enhancer includes an eSNP, is it more likely that the same enhancer interacts with the target gene? In an effort to answer those two questions, we aim to predict eQTL and chromatic interaction simultaneously.
+License: GPL-2
+Encoding: UTF-8
+Depends: 
+    R (>= 3.5.0)
+Imports: Rcpp (>= 1.0.3), stats, ROCR, RColorBrewer
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.2
+LazyData: true
+LazyDataCompression:xz
+
+
+
