@@ -113,8 +113,7 @@
 #'@format A list of
 #' \describe{
 #'   \item{Prob_NeQTL_qk}{posterior probabilities for qk=1}
-#'   
-#' }
+#'}
 #'
 #'@docType data
 #'@keywords datasets
@@ -153,8 +152,7 @@
 #'@format A list of
 #' \describe{
 #'   \item{Prob_Naive_qk}{posterior probabilities for qk=1}
-#'   
-#' }
+#'}
 #'
 #'@docType data
 #'@keywords datasets
