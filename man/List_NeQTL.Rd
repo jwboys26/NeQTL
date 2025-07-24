@@ -8,7 +8,6 @@
 A list of
 \describe{
   \item{Prob_NeQTL_qk}{posterior probabilities for qk=1}
-  
 }
 }
 \usage{

@@ -68,7 +68,7 @@ list of the following values:
 
 ## Import or upload an input data. Here, an example data (Valid_Input) will be used.
 data(List_Example_Data)
-Input_Data = List_Example_Data$Valid_Input   #### This is a short version of the real data used in this study.
+Input_Data = List_Example_Data$Valid_Input   
 head(Input_Data)
 dim(Input_Data)
 Final_lst = Run_NeQTL2(Input_Data, qR=0.1, lR=0.1, b_gen_skl=FALSE, 

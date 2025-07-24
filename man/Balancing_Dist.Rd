@@ -67,7 +67,8 @@ Threshold_Naive = lst$ProbVal
 data(List_Gold_Label)
 gold_label = List_Gold_Label$muther_eqtl     ### Use Muther eQTL data
 
-lst = Balancing_Dist(DistVec, Dist_SNP_Gene_NeQTL, Dist_SNP_Gene_Naive, Prob_NeQTL_qk, Prob_Naive_qk, Threshold_NeQTL, Threshold_Naive, gold_label)
+lst = Balancing_Dist(DistVec, Dist_SNP_Gene_NeQTL, Dist_SNP_Gene_Naive, 
+Prob_NeQTL_qk, Prob_Naive_qk, Threshold_NeQTL, Threshold_Naive, gold_label)
 
 Adj_Dist_NeQTL = lst$Adj_Dist1
 Adj_Dist_Naive = lst$Adj_Dist2

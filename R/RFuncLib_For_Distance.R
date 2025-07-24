@@ -478,7 +478,6 @@ Compute_Accuracy = function(DistVec, Post_Prob1, Post_Prob2, gold_label, bDisp=F
 #'@param Accuracy_Mat2 a 100 x 4 matrix of the adjusted accuracy measures of method 2.
 #'@param method_name1 the name of method 1. This will be expressed in the plot.
 #'@param method_name2 the name of method 2. This will be expressed in the plot.
-#'@param bDisp an option to display the intermediate result.
 #'
 #'@return two ROC curves using the adjusted distance obtained by two methods. 
 #'@seealso \code{List_Acc_Example}, \code{Compute_Accuracy}

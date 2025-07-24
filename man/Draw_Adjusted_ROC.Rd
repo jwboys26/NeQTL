@@ -27,7 +27,7 @@ two ROC curves using the adjusted distance obtained by two methods.
 ####################
 
 
-###### Here we will use already-adjusted accuracy measures we found in our study. Thus, we skip the process of adjusting measures. See the example in "Compute_Accuracy".
+## Here we will use already-adjusted accuracy measures we found in our study. Thus, we skip the process of adjusting measures.
 data(List_Acc_Example)
 
 Acc_NeQTL = List_Acc_Example$Accuracy_Mat1
